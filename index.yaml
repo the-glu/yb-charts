@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  yugaware:
+  - annotations:
+      charts.openshift.io/name: yugaware
+    apiVersion: v2
+    appVersion: 2025.1.0.0-b168
+    created: "2025-07-30T13:18:48.61997537Z"
+    description: YugabyteDB Anywhere provides deployment, orchestration, and monitoring
+      for managing YugabyteDB clusters. YugabyteDB Anywhere can create a YugabyteDB
+      cluster with multiple pods provided by Kubernetes or OpenShift and logically
+      grouped together to form one logical distributed database.
+    digest: 6291bfcb8d2b301d5a7554ef1d99e33e2118d26a7202a55ed6890e3b1dd51617
+    home: https://www.yugabyte.com
+    icon: https://avatars0.githubusercontent.com/u/17074854?s=200&v=4
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: sanketh@yugabyte.com
+      name: Sanketh Indarapu
+    - email: gjalla@yugabyte.com
+      name: Govardhan Reddy Jalla
+    name: yugaware
+    urls:
+    - https://github.com/the-glu/yb-charts/releases/download/yugaware-2025.1.2/yugaware-2025.1.2.tgz
+    version: 2025.1.2
+generated: "2025-07-30T13:18:48.619988043Z"
