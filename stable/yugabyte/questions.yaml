@@ -3,7 +3,7 @@ questions:
   ## Default images for yugabyte
   - variable: questions.defaultYugabyteDB
     default: true
-    description: "Use default settings for YugabyteDB"
+    description: "Use default settings for Yugabyte_DB"
     label: Use default
     type: boolean
     show_subquestion_if: false
