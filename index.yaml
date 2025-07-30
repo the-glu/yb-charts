@@ -23,6 +23,28 @@ entries:
     urls:
     - https://github.com/the-glu/yb-charts/releases/download/yugabyte-2025.1.2/yugabyte-2025.1.2.tgz
     version: 2025.1.2
+  - annotations:
+      charts.openshift.io/name: yugabyte
+    apiVersion: v2
+    appVersion: 2025.1.0.0-b168
+    created: "2025-07-30T13:34:42.923624781Z"
+    description: YugabyteDB is the high-performance distributed SQL database for building
+      global, internet-scale apps.
+    digest: 2446fcc0fb6dab6aa720960e67d0b9344a65e175a508ad1ac20d74ffc57be812
+    home: https://www.yugabyte.com
+    icon: https://avatars0.githubusercontent.com/u/17074854?s=200&v=4
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: sanketh@yugabyte.com
+      name: Sanketh Indarapu
+    - email: gjalla@yugabyte.com
+      name: Govardhan Reddy Jalla
+    name: yugabyte
+    sources:
+    - https://github.com/yugabyte/yugabyte-db
+    urls:
+    - https://github.com/the-glu/yb-charts/releases/download/yugabyte-2025.1.0/yugabyte-2025.1.0.tgz
+    version: 2025.1.0
   yugaware:
   - annotations:
       charts.openshift.io/name: yugaware
@@ -46,4 +68,26 @@ entries:
     urls:
     - https://github.com/the-glu/yb-charts/releases/download/yugaware-2025.1.2/yugaware-2025.1.2.tgz
     version: 2025.1.2
-generated: "2025-07-30T13:22:40.442166883Z"
+  - annotations:
+      charts.openshift.io/name: yugaware
+    apiVersion: v2
+    appVersion: 2025.1.0.0-b168
+    created: "2025-07-30T13:34:43.155524689Z"
+    description: YugabyteDB Anywhere provides deployment, orchestration, and monitoring
+      for managing YugabyteDB clusters. YugabyteDB Anywhere can create a YugabyteDB
+      cluster with multiple pods provided by Kubernetes or OpenShift and logically
+      grouped together to form one logical distributed database.
+    digest: 8ddb6aca862f2cbd03906529a83092cee67bc755897cc8b948983f38e501be96
+    home: https://www.yugabyte.com
+    icon: https://avatars0.githubusercontent.com/u/17074854?s=200&v=4
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: sanketh@yugabyte.com
+      name: Sanketh Indarapu
+    - email: gjalla@yugabyte.com
+      name: Govardhan Reddy Jalla
+    name: yugaware
+    urls:
+    - https://github.com/the-glu/yb-charts/releases/download/yugaware-2025.1.0/yugaware-2025.1.0.tgz
+    version: 2025.1.0
+generated: "2025-07-30T13:34:43.155540829Z"
